@@ -1,0 +1,19 @@
+{
+  "name": "Jira description adder",
+  "description": "After click on extension if jira description exist in page.Te element will be added simple tamplete to create an bug.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+   "default_icon": "logo.png"
+  },
+  "background": {
+    "scripts": ["content.js"],
+	"persistent": true 
+  },
+  "permissions": [
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ]
+}
